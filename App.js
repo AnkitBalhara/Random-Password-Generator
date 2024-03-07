@@ -41,10 +41,6 @@ function(){
     generatePassword()
 })
 
-
-
-
-
 function truncateString(str, num) {
     if (str.length > num) {
         let subStr = str.substring(0, num);
@@ -53,14 +49,3 @@ function truncateString(str, num) {
         return str;
     }
 }
-
-
-
-
-
-
-//     passBox.innerText = truncateString(password, totalChar.value);
-// }
-
-
-// generatePassword();
